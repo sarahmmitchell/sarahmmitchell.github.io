@@ -1,0 +1,87 @@
+.text-center {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgba(231, 231, 231, 0.734);
+}
+
+.top-name {
+    position: absolute; 
+    z-index: -30; 
+    top: 14%; 
+    width: 100%;
+}
+
+.top-name * {
+    font-size: 30px;
+}
+
+.font-modern * {
+    font-family: "Catamaran", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+}
+
+.font-modern .title {
+    font-size: 100px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.seperator {
+    padding-left: 20px; 
+    padding-right: 20px;
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /* background: url("../Pictures/cortlandthibodeau.png") no-repeat; */
+    background-size: cover;
+}
+
+.center-div {
+    position: absolute;
+    z-index: 12;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 900px;
+}
+
+@media (max-device-width: 800px) {
+    .seperator {
+        display: none;
+    }
+    .top-name * {
+        font-size: 18px;
+    }
+
+    .font-modern .title {
+        font-size: 75px;
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+}

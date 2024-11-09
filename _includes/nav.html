@@ -1,0 +1,24 @@
+<nav class="header header-sticky">
+    <div class="container-lrg">
+        <div class="flex col-12 spread">
+            <a href="/" class="logo font-modern">
+            <h3>SARAH MITCHELL</h3>
+            </a>
+            <a href="#main-menu" id="menu" class="menu-toggle">
+            <b class="nav-link mr0" style="color: black">☰</b>
+            </a>
+            <nav id="main-menu" role="navigation" class="main-menu">
+            <a href="#" id="main-menu-close" class="menu-close">
+                <span class="bold">✕</span>
+            </a>
+            <div class="font-modern">
+                <a href="vessi" class="nav-link nav-link-hover" {% if page.vessi %}style="color: grey"{% endif %}>Vessi</a>
+                <a href="mec" class="nav-link nav-link-hover" {% if page.mec %}style="color: grey"{% endif %}>MEC</a>
+                <a href="arcteryx" class="nav-link nav-link-hover" {% if page.arcteryx %}style="color: grey"{% endif %}>Arc'teryx</a>
+                <a href="personal" class="nav-link nav-link-hover" {% if page.personal; %}style="color: grey"{% endif %}>Personal</a>
+                <a href="contact" class="nav-link nav-link-hover" {% if page.contact %}style="color: grey"{% endif %}>Contact</a>
+            </div>
+            </nav>
+        </div>
+    </div>
+</nav>
