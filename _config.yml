@@ -20,9 +20,9 @@
 
 title: Sarah Mitchell
 description: Outdoor Apparel Designer & Colour Creative. Connecting people to product using Emotion and Strategic Design.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://sarahmitchell.work" # the base hostname & protocol for your site, e.g. http://example.com
-
+domain: sarahmmitchell.github.io
+url: https://sarahmmitchell.github.io 
+baseurl: /
 
 # Exclude from processing.
 # The following items will not be processed, by default.
