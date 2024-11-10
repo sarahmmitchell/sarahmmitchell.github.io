@@ -1,25 +1,30 @@
 ---
-permalink: /404.html
-layout: default
 ---
+<!DOCTYPE html>
+<html lang="en">
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+  <head>
+    {% include header.html title="Not Found" %}
+  </head>
 
-<div class="container">
-  <h1>404</h1>
+  <body>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+    <div class="background">
+      {% include nav.html %}
+        
+      <section id="portfolio" class="section-top">
+        <div class="container">
+          <div class="col-12 text-center font-modern portfolio">
+            <h1>Sorry. Couldn't find this page.</h1>
+            <video playsinline autoplay muted loop poster="">
+              <source src="videos/title.mp4" type="video/mp4">
+          </video>
+          </div>
+        </div>
+      </section>
+  
+      {% include footer.html %}
+    </div>
+  </body>
+
+</html>
