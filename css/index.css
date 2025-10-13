@@ -25,7 +25,8 @@ a {
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    color: black;
+    color: white;
+    /* mix-blend-mode: difference; */
 }
 
 .font-modern .title {
@@ -108,4 +109,21 @@ a {
     .font-modern .title {
         font-size: 80px;
     }
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /* background: url("../Pictures/cortlandthibodeau.png") no-repeat; */
+    background-size: cover;
 }
