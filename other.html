@@ -1,4 +1,48 @@
-/* Portfolio item container */
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sarah Mitchell — Work</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+    body {
+      margin: 0;
+      padding: 40px 24px;
+      font-family: 'Inter', sans-serif;
+      background: #fff;
+      color: #111;
+    }
+    .intro {
+      max-width: 860px;
+      margin-bottom: 32px;
+    }
+    .intro h1 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .intro p {
+      font-size: 16px;
+      color: #555;
+      margin: 0;
+    }
+
+    /* Portfolio grid */
+    .portfolio-grid {
+      display: grid;
+      gap: 30px;
+      grid-template-columns: repeat(3, 1fr);
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+   
+ /* Portfolio item container */
 .portfolio-item {
   position: relative;
   cursor: pointer;
@@ -49,3 +93,117 @@
 .portfolio-item:hover .portfolio-title {
   opacity: 1;
 }
+
+    /* Lightbox overlay */
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.85);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      backdrop-filter: blur(3px);
+      z-index: 9999;
+      padding: 32px;
+    }
+    .lightbox img {
+      max-width: 90%;
+      max-height: 80vh;
+      border-radius: 8px;
+      box-shadow: 0 0 40px rgba(0,0,0,0.4);
+    }
+    .lightbox-close {
+      position: absolute;
+      top: 24px;
+      right: 32px;
+      font-size: 36px;
+      font-weight: 300;
+      color: #fff;
+      cursor: pointer;
+      transition: opacity .2s ease;
+    }
+    .lightbox-close:hover {
+      opacity: 0.6;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 1024px) {
+      .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 640px) {
+      .portfolio-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="intro">
+    <h1>Sarah Mitchell</h1>
+    <p>Portfolio of selected work.</p>
+  </section>
+
+  <section class="portfolio-grid">
+
+    <div class="portfolio-item" data-src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1600&q=80">
+      <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&q=60" alt="Paralympics x Lululemon">
+      <div class="portfolio-title">Paralympics x Lululemon</div>
+    </div>
+
+    <div class="portfolio-item" data-src="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?w=1600&q=80">
+      <img src="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?w=800&q=60" alt="Team Canada x Lululemon">
+      <div class="portfolio-title">Team Canada x Lululemon</div>
+    </div>
+
+    <div class="portfolio-item" data-src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600&q=80">
+      <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=60" alt="Arcteryx">
+      <div class="portfolio-title">Arcteryx</div>
+    </div>
+
+    <!-- Add more cards here as needed -->
+  </section>
+
+  <!-- Lightbox modal -->
+  <div class="lightbox" id="lightbox">
+    <span class="lightbox-close" id="lightbox-close">&times;</span>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <script>
+    const items = document.querySelectorAll('.portfolio-item');
+    const lb = document.getElementById('lightbox');
+    const lbImg = document.getElementById('lightbox-img');
+    const lbClose = document.getElementById('lightbox-close');
+
+    items.forEach(item => {
+      item.addEventListener('click', () => {
+        lbImg.src = item.getAttribute('data-src');
+        lb.style.display = 'flex';
+      });
+    });
+
+    lbClose.addEventListener('click', () => {
+      lb.style.display = 'none';
+      lbImg.src = '';
+    });
+
+    lb.addEventListener('click', (e) => {
+      if (e.target === lb) {
+        lb.style.display = 'none';
+        lbImg.src = '';
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        lb.style.display = 'none';
+        lbImg.src = '';
+      }
+    });
+  </script>
+</body>
+</html>
