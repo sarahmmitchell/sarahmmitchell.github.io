@@ -58,14 +58,21 @@
   box-shadow: 0 12px 32px rgba(0,0,0,0.1);
 }
 
-/* Image */
+.portfolio-item {
+  aspect-ratio: 16 / 9; /* Horizontal landscape format */
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* Force images to fill the horizontal box */
 .portfolio-item img {
   width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
+  height: 100%;
+  object-fit: cover;   /* Crops evenly to fill horizontal space */
   transition: opacity .35s ease;
 }
+
 
 /* Fade image out on hover */
 .portfolio-item:hover img {
