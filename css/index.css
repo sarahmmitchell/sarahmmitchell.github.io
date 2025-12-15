@@ -12,25 +12,25 @@ a {
 
 .top-name {
     position: absolute;
-    top: 18%; 
+    top: 30%; 
     width: 100%;
 }
 
 .top-name * {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .font-modern * {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 800;
+    font-weight: 500;
     font-style: normal;
     color: white;
     /* mix-blend-mode: difference; */
 }
 
 .font-modern .title {
-    font-size: 60px;
+    font-size: 80px;
 }
 
 .bg {
