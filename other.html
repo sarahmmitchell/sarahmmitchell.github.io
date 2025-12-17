@@ -1,20 +1,18 @@
+---
+---
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sarah Mitchell — Work</title>
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
-    rel="stylesheet"
-  >
-
+  {% include header.html %}
   <style>
     body {
       margin: 0;
-      padding: 40px 24px;
-      font-family: 'Inter', sans-serif;
+      /* padding: 40px 24px; */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
       background: #fff;
       color: #111;
     }
@@ -36,10 +34,11 @@
     /* Portfolio grid */
     .portfolio-grid {
       display: grid;
-      gap: 30px;
-      grid-template-columns: repeat(3, 1fr);
-      max-width: 1200px;
+      gap: 20px;
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 960px;
       margin: 0 auto;
+      margin-top: 60px;
     }
    
  /* Portfolio item container */
@@ -47,22 +46,21 @@
   position: relative;
   cursor: pointer;
   overflow: hidden;
-  border-radius: 8px;
-  background: #f8f8f8;
+  /* border-radius: 8px; */
+  background: #f8f8f860;
   transition: transform .3s ease, box-shadow .3s ease;
 }
 
 /* Hover lift */
-.portfolio-item:hover {
+/* .portfolio-item:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 32px rgba(0,0,0,0.1);
-}
+} */
 
 .portfolio-item {
   aspect-ratio: 16 / 9; /* Horizontal landscape format */
   position: relative;
   overflow: hidden;
-  border-radius: 8px;
 }
 
 /* Force images to fill the horizontal box */
@@ -91,7 +89,7 @@
   color: #111;
   opacity: 0;
   transition: opacity .35s ease;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   pointer-events: none; /* keep click going to parent */
 }
@@ -149,38 +147,40 @@
 </head>
 <body>
 
-  <section class="intro">
-    <h1>Sarah Mitchell</h1>
+  <!-- <section class="intro">
+    <h1>SARAH MITCHELL</h1>
     <p>Portfolio of selected work.</p>
-  </section>
+  </section> -->
+
+  {% include nav.html %}
 
   <section class="portfolio-grid">
 
     <div class="portfolio-item" data-src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1600&q=80">
-      <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&q=60" alt="Paralympics x Lululemon">
-      <div class="portfolio-title">Paralympics x Lululemon</div>
+            <img src="images/apparel/Apparel_Trinity2.jpg"/>
+      <div class="portfolio-title">Vessi Trinity Jackets</div>
     </div>
 
     <div class="portfolio-item" data-src="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?w=1600&q=80">
-      <img src="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?w=800&q=60" alt="Team Canada x Lululemon">
-      <div class="portfolio-title">Team Canada x Lululemon</div>
+            <img src="images/apparel/Apparel_31.jpg"/>
+      <div class="portfolio-title">Arc'teryx ReBird</div>
     </div>
 
     <div class="portfolio-item" data-src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600&q=80">
-      <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=60" alt="Arcteryx">
-      <div class="portfolio-title">Arcteryx</div>
+            <img src="images/apparel/Apparel_24.jpg"/>
+      <div class="portfolio-title">Mountain Equipment Company</div>
     </div>
 
     <!-- Add more cards here as needed -->
   </section>
 
   <!-- Lightbox modal -->
-  <div class="lightbox" id="lightbox">
+  <!-- <div class="lightbox" id="lightbox">
     <span class="lightbox-close" id="lightbox-close">&times;</span>
     <img id="lightbox-img" src="" alt="">
-  </div>
+  </div> -->
 
-  <script>
+  <!-- <script>
     const items = document.querySelectorAll('.portfolio-item');
     const lb = document.getElementById('lightbox');
     const lbImg = document.getElementById('lightbox-img');
@@ -211,6 +211,6 @@
         lbImg.src = '';
       }
     });
-  </script>
+  </script> -->
 </body>
 </html>
