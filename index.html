@@ -10,14 +10,16 @@ portfolio: true
   {% include nav.html %}
 
   <section>
-    <div class="container font-modern">
-      <div class="portfolio-grid">
-        {% for project in site.data.projects.items %}
-        <a class="portfolio-grid-item" href="{{ project.link }}">
-          <img src="{{ project.img }}"/>
-          <div class="portfolio-grid-title">{{ project.title }}</div>
-        </a>
-        {% endfor %}
+    <div class="container-lrg font-modern">
+      <div class="col-12">
+        <div class="portfolio-grid">
+          {% for project in site.data.projects.items %}
+          <a class="portfolio-grid-item" href="{{ project.link }}">
+            <img src="{{ project.img }}"/>
+            <div class="portfolio-grid-title">{{ project.title }}</div>
+          </a>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </section>

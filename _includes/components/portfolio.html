@@ -1,30 +1,32 @@
-<div class="portfolio">
-    {% for item in include.portfolio %}
-        {% if item.type == "img" %}
-            {% include components/portfolio-img.html img=item %}
-        {% elsif item.type == "video" %}
-            {% include components/portfolio-video.html video=item %}
-        {% elsif item.type == "marquee" %}
-            {% include components/portfolio-marquee.html marquee=item %}
-        {% elsif item.type == "portfolio-header" %}
-            {% include components/portfolio-header.html header=item %}
-        {% elsif item.type == "text" %}
-            {% include components/portfolio-text.html text=item %}
-        {% elsif item.type == "youtube" %}
-            {% include components/portfolio-youtube.html youtube=item %}
-        {% else %}
-            <div class="font-modern" style="font-size: 20px; color: red;">
-                COMPONENT
-                <br>{{ item }}<br>
-                NOT FOUND
-            </div>
-        {% endif %}
-    {% endfor %}
+<div class="col-12">
+    <div class="portfolio">
+        {% for item in include.portfolio %}
+            {% if item.type == "img" %}
+                {% include components/portfolio-img.html img=item %}
+            {% elsif item.type == "video" %}
+                {% include components/portfolio-video.html video=item %}
+            {% elsif item.type == "marquee" %}
+                {% include components/portfolio-marquee.html marquee=item %}
+            {% elsif item.type == "portfolio-header" %}
+                {% include components/portfolio-header.html header=item %}
+            {% elsif item.type == "text" %}
+                {% include components/portfolio-text.html text=item %}
+            {% elsif item.type == "youtube" %}
+                {% include components/portfolio-youtube.html youtube=item %}
+            {% else %}
+                <div class="font-modern" style="font-size: 20px; color: red;">
+                    COMPONENT
+                    <br>{{ item }}<br>
+                    NOT FOUND
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    {% if include.bottom_project_links %}
+    <div class="bottom-project-links font-modern">
+        {% for project in site.data.projects.items %}
+        <a style="{% if page.key == project.key %}color: grey;{% endif %}" class="project-link nav-link-hover" href="{{ project.link }}">{{ project.title }}</a>
+        {% endfor %}
+    </div>
+    {% endif %}
 </div>
-{% if include.bottom_project_links %}
-<div class="bottom-project-links font-modern">
-    {% for project in site.data.projects.items %}
-    <a style="{% if page.key == project.key %}color: grey;{% endif %}" class="project-link nav-link-hover" href="{{ project.link }}">{{ project.title }}</a>
-    {% endfor %}
-</div>
-{% endif %}

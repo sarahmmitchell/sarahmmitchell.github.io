@@ -11,4 +11,10 @@
         <div class="marquee-sep"></div>  
         {% endfor %}
     </div>
+    <div class="marquee-item">
+        {% for word in include.marquee.words %}
+        <div class="marquee-text">{{ word.word }}</div>
+        <div class="marquee-sep"></div>  
+        {% endfor %}
+    </div>
 </div>

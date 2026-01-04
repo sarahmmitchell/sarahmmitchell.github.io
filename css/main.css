@@ -154,12 +154,16 @@ a {
 
 
 /*containers*/
+.container-xlrg,
 .container-lrg,
 .container,
 .container-sml {
   margin: auto;
   position: relative;
   width: 100%;
+}
+.container-xlrg {
+  max-width: 1260px;
 }
 .container-lrg {
   max-width: 1020px;
@@ -372,6 +376,10 @@ body {
 
 /* Portfolio Header */
 
+.component-header {
+  padding: 50px 0;
+}
+
 .component-header .header-img {
   width: 80px;
   padding-bottom: 6px;
@@ -391,6 +399,10 @@ body {
 
 /* Portfolio Text */
 
+.component-text {
+  margin: 30px 0;
+}
+
 .component-text .text-paragraph {
   font-size: 13px; 
   font-weight: 400; 
@@ -400,7 +412,7 @@ body {
 /* Project Links */
 
 .bottom-project-links {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 30px; 
   text-align: center;
 }
