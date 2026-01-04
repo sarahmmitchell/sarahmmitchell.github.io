@@ -1,0 +1,48 @@
+content:
+  - item:
+    type: portfolio-header
+    title: Sarha By Sodny
+    paragraphs:
+      - _: 
+        text: >-
+          Inspired by Shibam’s 16th century mud-brick architecture and the fog that rolls into the city, SODNY’s sarha men’s 
+          collection blends contrasting materials and shapes. The complexion of the mud buildings and the gritty desert sand 
+          lay stark to the foliage surrounding the city, lending inspiration for both the collection’s colour palette and key 
+          design details.
+      - _: 
+        text: >-
+          Shibam’s last hours of daylight illuminate the city’s towers and surrounding rugged cliffs with a stunning warm amber 
+          glow. This distinctive occurance is brought to life with orange highlights scattered within the collection.
+  - item:
+    type: img
+    src: images/sodny/Apparel_15.jpg
+  - item:
+    type: img
+    src: images/sodny/Sodny_inspo.jpg
+  - item:
+    type: img
+    src: images/sodny/Sodny sketches.jpg
+  - item:
+    type: img
+    src: images/sodny/Sodny technicals2.jpg
+  - item:
+    type: img
+    src: images/sodny/Sodny_1.jpg
+  - item:
+    type: img
+    src: images/sodny/Apparel_18.jpg
+  - item:
+    type: img
+    src: images/sodny/Apparel_19.jpg
+  - item:
+    type: text
+    paragraphs:
+      - _: 
+        text: >-
+          Team leads: Sarah Mitchell & Olivia Desroches
+      - _:
+        text: >-
+          Design and Development: Sarah Mitchell, Nicole Carusi, David Franco, Olivia Desroches, Sargent Chen
+      - _:
+        text: >-
+          Technical Design: Nicole Carusi

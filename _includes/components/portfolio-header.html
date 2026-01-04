@@ -1,0 +1,19 @@
+<div class="component component-header font-modern">
+    <div class="col-12">
+        <img class="header-img" src="{{ include.header.img-src }}"/>
+    </div>
+    <div class="flex mobile-flex-wrap">
+        <div class="flex flex-column col-3">
+            <div class="header-title">{{ include.header.title }}</div>
+        </div>
+        <div class="flex flex-column col-9" style="text-align: justify;">
+            <div>
+                {% for p in include.header.paragraphs %}
+                <p class="header-text">
+                    {{ p.text }}
+                </p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

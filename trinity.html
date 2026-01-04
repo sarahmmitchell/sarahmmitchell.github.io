@@ -1,0 +1,20 @@
+---
+key: trinity
+---
+<!doctype html>
+<html lang="en">
+<head>
+  {% include header.html %}
+</head>
+<body>
+    <div class="background">
+        {% include nav.html %}
+        <section id="portfolio" class="section-top">
+            <div class="container">
+                {% include components/portfolio.html portfolio=site.data.portfolio.trinity.content bottom_project_links=true %}
+            </div>
+        </section>
+        {% include footer.html %}
+    </div>
+    
+</body>

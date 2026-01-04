@@ -1,0 +1,66 @@
+content:
+  - item:
+    type: portfolio-header
+    img-src: images/logo/vessi.png
+    title: Trinity Jackets
+    paragraphs:
+      - _: 
+        text: >-
+          I designed the men’s and women’s Trinity Jackets as Vessi’s first 3-layer outerwear system, 
+          offering an elevated solution that can be worn day-to-night. Drawing from suiting and tailored 
+          silhouettes, I integrated refined elements such as lapels, sharp vents and clean lines to embed a 
+          sophisticated aesthetic, contrasted by nods of playfulness that speak to the brand’s DNA. To deliver 
+          personalized functionality, I incorporated details such as a removable hood and adjustable elasticated 
+          waistband to allow stylization and versatility.
+  - item:
+    type: img
+    src: images/trinity/Trinity inspiration 1.jpg
+  - item:
+    type: img
+    src: images/trinity/Trinity_inspiration2.jpg
+  - item:
+    type: img
+    src: images/trinity/Trinity sketches.jpg
+  - item:
+    type: img
+    src: images/trinity/Trinity_trims.jpg
+  - item:
+    type: img
+    src: images/trinity/Trinity_technicals2.jpg
+  - item:
+    type: img
+    src: images/trinity/Apparel_Trinity10.jpg
+  - item:
+    type: img
+    src: images/trinity/Apparel_Trinity7.jpg
+  - item:
+    type: img
+    src: images/trinity/Apparel_Trinity9.jpg
+  - item:
+    type: img
+    src: images/trinity/Apparel_Trinity6.jpg
+  - item:
+    type: img
+    src: images/trinity/Apparel_Trinity5.jpg
+  - item:
+    type: img
+    src: images/trinity/Apparel_Trinity4.jpg
+  - item:
+    type: img
+    src: images/trinity/Apparel_Trinity2.jpg
+  - item:
+    type: text
+    paragraphs:
+      - _: 
+        text: >-
+          Apparel Design: Sarah Mitchell
+      - _:
+        text: >-
+          Product Development: Sam Chian, Camila Rodrigues & Thuy Hoang
+      - _: 
+        text: >-
+          Photoshoot Creative Direction: Katie Golding
+      - _:
+        text: >-
+          Photography: Hussain Ali & Luc Frost
+  

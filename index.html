@@ -1,31 +1,27 @@
 ---
+portfolio: true
 ---
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-      {% include header.html %}
-      <link rel="stylesheet" href="css/index.css">
-  </head>
+<head>
+  {% include header.html %}
+</head>
+<body>
+  {% include nav.html %}
 
-  <body>
-
-      <!-- <div class="bg">
-        <div class="bg-image"></div>
-      </div> -->
-
-      <video playsinline autoplay muted loop poster="images/titlev2.4.jpg" id="bgvid">
-        <source src="videos/titlev2.4.mp4" type="video/mp4">
-    </video>
-
-      <div class="font-modern text-center top-name">
-        <p>PORTFOLIO</p>
+  <section>
+    <div class="container font-modern">
+      <div class="portfolio-grid">
+        {% for project in site.data.projects.items %}
+        <a class="portfolio-grid-item" href="{{ project.link }}">
+          <img src="{{ project.img }}"/>
+          <div class="portfolio-grid-title">{{ project.title }}</div>
+        </a>
+        {% endfor %}
       </div>
+    </div>
+  </section>
 
-      <div class="center-div">
-        <div class="font-modern text-center">
-            <a class="title link" style="display: block;" href="portfolio">SARAH MITCHELL</a>
-        </div>
-      </div>
-    
-  </body>
+  {% include footer.html %}
+</body>
 </html>
