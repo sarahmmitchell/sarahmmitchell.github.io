@@ -16,7 +16,19 @@ content:
           collaborating closely with product development to bring the concept and collections to life.
   - item:
     type: img
-    src: images/apparel/LinePlan2copy.jpg
+    src: images/vdl/VDL_1.jpg
+  - item:
+    type: img
+    src: images/vdl/VDL_2.jpg
+  - item:
+    type: img
+    src: images/vdl/VDL_3.jpg
+  - item:
+    type: img
+    src: images/vdl/VDL_4.jpg
+  - item:
+    type: img
+    src: images/vdl/VDL_5.jpg
   - item:
     type: marquee
     animation: 15s
@@ -26,10 +38,10 @@ content:
       - word: TRANSLEUCENCY
   - item:
     type: img
-    src: images/apparel/LinePlan2copy1.jpg
+    src: images/vdl/VDL_6.jpg
   - item:
     type: img
-    src: images/apparel/LinePlan2copy12.jpg
+    src: images/vdl/VDL_7.jpg
   - item:
     type: marquee
     animation: 15s
@@ -39,10 +51,10 @@ content:
       - word: CURVED LINES / WAVES
   - item:
     type: img
-    src: images/apparel/LinePlan6.jpg
+    src: images/vdl/VDL_8.jpg
   - item:
     type: img
-    src: images/apparel/LinePlan7.jpg
+    src: images/vdl/VDL_9.jpg
   - item:
     type: text
     paragraphs:
