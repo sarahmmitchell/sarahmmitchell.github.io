@@ -47,8 +47,8 @@ content:
     animation: 15s
     words:
       - word: GRAVITATIONAL FLUIDITY
-      - word: DYNAMIC CURVED LINES / WAVES
-      - word: CURVED LINES / WAVES
+      - word: DYNAMIC WAVES
+      - word: CURVED LINES
   - item:
     type: img
     src: images/vdl/VDL_8.jpg
