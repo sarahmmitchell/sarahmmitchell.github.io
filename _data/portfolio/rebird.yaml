@@ -1,13 +1,13 @@
 content:
   - item:
     type: portfolio-header
-    img-src: images/logo/arc_text.png
-    title: ReBird Wind Shells
+    img-src: images/logo/arc_bird.png
+    title: ReBird Stowe Windshells
     paragraphs:
       - _: 
         text: >-
           For the inaugural ReBird apparel project at Arc’teryx, I designed 6 limited edition colourways 
-          for the men’s and women’s Stowe Jacket. Concepting unique, colourblocked styles from a limited 
+          for the men’s and women’s Stowe Windshells. Concepting unique, colourblocked styles from a limited 
           selection of excess raw materials, I delivered fun, yet commercial colourways while saving waste 
           and promoting circularity.
       - _: 
@@ -41,4 +41,7 @@ content:
       - _:
         text: >-
           Style Design: Stella Ho
+      - _:
+        text: >-
+          Developer: Denise Mok
   
