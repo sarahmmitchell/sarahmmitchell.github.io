@@ -1,6 +1,6 @@
 ---
 personal: true
-footerlinks: true
+key: personal
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -10,38 +10,13 @@ footerlinks: true
   </head>
 
   <body>
-
     <div class="background">
       {% include nav.html %}
-        
       <section id="portfolio" class="section-top">
-        <div class="container">
-          <div class="col-12 text-center portfolio">
-            <img src="images/okini.jpg"/>
-
-            <!-- okini -->
-            <div class="video-container">
-              <iframe src="https://www.youtube.com/embed/MCgHLq2I1VM?si=leFzAAhAcOj6USVS&amp;start=190" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            
-            
-            <!-- friends of friends -->
-            <img src="images/friends_of_friends.jpg"/>
-            <img src="images/Ski4.jpg"/>
-            <div class="video-container">
-              <iframe src="https://www.youtube.com/embed/IVQ4ipnRU6c?si=6JvnrYekZmpmxkBC&amp;start=122" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            
-
-            <!-- postcards from the alps -->
-            <img src="images/postcards.jpg"/>
-            <div class="video-container">
-              <iframe src="https://www.youtube.com/embed/lvuzbAPWkC8?si=huiBDMpCqOHhWtgV&amp;start=38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>          
+          <div class="container-lrg">
+              {% include components/portfolio.html portfolio=site.data.personal.content bottom_project_links=true %}
           </div>
-        </div>
       </section>
-  
       {% include footer.html %}
     </div>
   </body>

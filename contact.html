@@ -1,5 +1,6 @@
 ---
 contact: true
+footerlinks: true
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -9,20 +10,15 @@ contact: true
   </head>
 
   <body>
-
     <div class="background">
       {% include nav.html %}
-        
       <section id="portfolio" class="section-top">
-        <div class="container">
-          <div class="col-12 font-modern text-center portfolio">
-            <img src="images/contact.jpg"/>
+          <div class="container-lrg">
+              {% include components/portfolio.html portfolio=site.data.contact.content %}
           </div>
-        </div>
       </section>
-  
       {% include footer.html %}
     </div>
   </body>
 
-</html>
+  </html>

@@ -1,0 +1,53 @@
+content:
+  - item:
+    type: portfolio-header
+    title: Ski Movie Premieres
+    paragraphs:
+      - _: 
+        text: >-
+          Exploring mountains around the world, my partner and I film and produce ski movies to premiere in our local community 
+          back home. Collaborating with industry partners, we hold raffles at the event, with 100% of proceeds donated to Protect 
+          Our Winters Canada to promote climate change awareness.
+      - _: 
+        text: >-
+          In addition to being an athlete in these films, my scope included Brand and Logo Design and Event and Sponsorship Management. 
+      - _:
+        text: >-
+          Our last ski film premiere, hosted at North Vancouver’s North Point Brewery, raised over $800 and contributed over 25 new 
+          memberships for Protect Our Winters Canada.
+  - item:
+    type: img
+    src: images/personal/okini.jpg
+  - item:
+    type: youtube
+    embed: <iframe src="https://www.youtube.com/embed/MCgHLq2I1VM?si=leFzAAhAcOj6USVS&amp;start=190" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  - item:
+    type: img
+    src: images/personal/friends_of_friends.jpg
+  - item:
+    type: img
+    src: images/personal/Ski4.jpg
+  - item:
+    type: youtube
+    embed: <iframe src="https://www.youtube.com/embed/IVQ4ipnRU6c?si=6JvnrYekZmpmxkBC&amp;start=122" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  - item:
+    type: img
+    src: images/personal/postcards.jpg
+  - item:
+    type: youtube
+    embed: <iframe src="https://www.youtube.com/embed/lvuzbAPWkC8?si=huiBDMpCqOHhWtgV&amp;start=38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  - item:
+    type: text
+    paragraphs:
+      - _: 
+        text: >-
+          Film Production: Cortland Thibodeau
+      - _: 
+        text: >-
+          Filming: Cortland Thibodeau & Sarah Mitchell
+      - _: 
+        text: >-
+          Event coordination: Sarah Mitchell
+      - _:
+        text: >-
+          Sponsor support: Sarah Mitchell

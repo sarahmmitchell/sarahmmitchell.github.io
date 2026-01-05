@@ -1,0 +1,42 @@
+content:
+  - item:
+    type: portfolio-header
+    title: Mountains In Snow
+    img-src: images/logo/mountain.png
+    paragraphs:
+      - _: 
+        text: >-
+          A project inspired by Lawren S. Harris’ painting titled, “Mountains in Snow”, this coordinated 
+          suit pulls inspiration from the depth of perspective provided by intricate layers and sharp 
+          edges is Lawren’s painting. Softer lines from natural snow formations shift the style lines and 
+          angles to a feminine balance.
+  - item:
+    type: img
+    src: images/mountain/Mountain_inspiration.jpg
+  - item:
+    type: img
+    src: images/mountain/Apparel_11.jpg
+  - item:
+    type: img
+    src: images/mountain/Apparel_12.jpg
+  - item:
+    type: img
+    src: images/mountain/seven_collection.jpg
+  - item:
+    type: img
+    src: images/mountain/Apparel_13.jpg
+  - item:
+    type: video
+    src: videos/shorts.mp4
+  - item:
+    type: text
+    paragraphs:
+      - _: 
+        text: >-
+          Apparel Design and Direction: Sarah Mitchell
+      - _:
+        text: >-
+          Pattern Drafting: Sarah Mitchell
+      - _:
+        text: >-
+          3D rendering and animation (Clo3D): Sarah Mitchell

@@ -1,0 +1,44 @@
+content:
+  - item:
+    type: portfolio-header
+    img-src: images/logo/arc_text.png
+    title: ReBird Wind Shells
+    paragraphs:
+      - _: 
+        text: >-
+          For the inaugural ReBird apparel project at Arc’teryx, I designed 6 limited edition colourways 
+          for the men’s and women’s Stowe Jacket. Concepting unique, colourblocked styles from a limited 
+          selection of excess raw materials, I delivered fun, yet commerical colourways while saving waste 
+          and promoting circularity.
+      - _: 
+        text: >-
+          The final colourway designs were so successful at launch, the style continues to be produced, 
+          following the original colourblocking direction from the initial design in Spring 2021. 
+  - item:
+    type: img
+    src: images/rebird/Apparel_31.jpg
+  - item:
+    type: img
+    src: images/rebird/Apparel_33.jpg
+  - item:
+    type: img
+    src: images/rebird/Apparel_34.jpg
+  - item:
+    type: img
+    src: images/rebird/Rebird_1.jpg
+  - item:
+    type: img
+    src: images/rebird/Apparel_36.jpg
+  - item:
+    type: img
+    src: images/rebird/Rebird_2.jpg
+  - item:
+    type: text
+    paragraphs:
+      - _: 
+        text: >-
+          Colour Design: Sarah Mitchell
+      - _:
+        text: >-
+          Style Design: Stella Ho
+  

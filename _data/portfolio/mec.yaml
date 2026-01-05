@@ -1,0 +1,51 @@
+content:
+  - item:
+    type: portfolio-header
+    title: Mountain Equipment Company
+    img-src: images/logo/mec.png
+    paragraphs:
+      - _: 
+        text: >-
+          For the Spring/Summer 2023 collection, I designed new styles to round out the existing Spring assortment.
+          I focused on enhancing function and elevating user experience, incorporating new activity-specific design 
+          details as well as enhanced movement through articulation.
+      - _: 
+        text: >-
+          My role for these designs involved designing from concept to completion, including sketching, completing 
+          all technicals and tech pack artwork, material selection, and overseeing the fitting and wear testing process. 
+  - item:
+    type: img
+    src: images/mec/Apparel_26.jpg
+  - item:
+    type: img
+    src: images/mec/Apparel_21.jpg
+  - item:
+    type: img
+    src: images/mec/Apparel_22.jpg
+  - item:
+    type: img
+    src: images/mec/Apparel_23.jpg
+  - item:
+    type: img
+    src: images/mec/Apparel_24.jpg
+  - item:
+    type: img
+    src: images/mec/Apparel_25.jpg
+  - item:
+    type: img
+    src: images/mec/MEC_1.jpg
+  - item:
+    type: img
+    src: images/mec/MEC_2.jpg
+  - item:
+    type: text
+    paragraphs:
+      - _: 
+        text: >-
+          Product Design: Sarah Mitchell
+      - _:
+        text: >-
+          Colour Design: Sarah Mitchell
+      - _:
+        text: >-
+          Product Development: Sarah Millar & Morgan Djolesi
