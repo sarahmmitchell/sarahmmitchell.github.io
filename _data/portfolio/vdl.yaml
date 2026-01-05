@@ -35,7 +35,7 @@ content:
     words:
       - word: WATER = DIFFUSED LIGHT + MOVEMENT
       - word: INTERPLAY OF OVERLAPPING MATERIALS
-      - word: TRANSLEUCENCY
+      - word: TRANSLUCENCY
   - item:
     type: img
     src: images/vdl/VDL_6.jpg
