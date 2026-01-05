@@ -1,5 +1,6 @@
 ---
 portfolio: true
+footerlinks: true
 ---
 <!doctype html>
 <html lang="en">
@@ -15,7 +16,14 @@ portfolio: true
         <div class="portfolio-grid">
           {% for project in site.data.projects.items %}
           <a class="portfolio-grid-item" href="{{ project.link }}">
-            <img src="{{ project.img }}"/>
+            {% if project.img %}
+            <img class="portfolio-grid-img" src="{{ project.img }}"/>
+            {% else %}
+            <video class="portfolio-grid-img" playsinline autoplay muted loop poster="">
+                <source src="{{ project.video }}" type="video/mp4">
+            </video>
+            {% endif %}
+            <img class="portfolio-grid-mobile" src="{{ project.mobile }}"/>
             <div class="portfolio-grid-title">{{ project.title }}</div>
           </a>
           {% endfor %}
