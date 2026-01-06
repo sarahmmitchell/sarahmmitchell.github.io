@@ -25,6 +25,9 @@ content:
     src: images/vdl/VDL_3.jpg
   - item:
     type: img
+    src: images/vdl/VDL_10.jpg
+  - item:
+    type: img
     src: images/vdl/VDL_4.jpg
   - item:
     type: img
