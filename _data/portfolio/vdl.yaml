@@ -56,6 +56,12 @@ content:
     type: img
     src: images/vdl/VDL_9.jpg
   - item:
+    type: img
+    src: images/vdl/VDL_10.jpg
+  - item:
+    type: img
+    src: images/vdl/VDL_11.jpg
+  - item:
     type: text
     paragraphs:
       - _: 
