@@ -17,6 +17,13 @@ content:
     type: img
     src: images/mountain/Apparel_11.jpg
   - item:
+    type: marquee
+    animation: 15s
+    words:
+      - word: LINE & REPITITION
+      - word: LAYERING
+      - word: SHARP ANGLES
+  - item:
     type: img
     src: images/mountain/Apparel_12.jpg
   - item:
