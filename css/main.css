@@ -500,7 +500,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   color: #111;
   opacity: 0;
   transition: opacity .35s ease;
