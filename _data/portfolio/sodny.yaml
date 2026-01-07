@@ -26,6 +26,12 @@ content:
     src: images/sodny/Sodny_1.jpg
   - item:
     type: img
+    src: images/sodny/Sodny_2.jpg
+  - item:
+    type: img
+    src: images/sodny/Sodny_3.jpg
+  - item:
+    type: img
     src: images/sodny/Apparel_18.jpg
   - item:
     type: img
