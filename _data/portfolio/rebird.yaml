@@ -19,7 +19,16 @@ content:
     src: images/rebird/Apparel_31.jpg
   - item:
     type: img
-    src: images/rebird/Apparel_33.jpg
+    src: images/rebird/Rebird_3.jpg
+  - item:
+    type: img
+    src: images/rebird/Rebird_4.jpg
+  - item:
+    type: img
+    src: images/rebird/Rebird_5.jpg
+  - item:
+    type: img
+    src: images/rebird/Rebird_6.jpg
   - item:
     type: img
     src: images/rebird/Apparel_34.jpg
