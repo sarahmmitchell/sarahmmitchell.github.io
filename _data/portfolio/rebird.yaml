@@ -34,7 +34,10 @@ content:
     src: images/rebird/Apparel_34.jpg
   - item:
     type: img
-    src: images/rebird/Rebird_1.jpg
+    src: images/rebird/rebird_1.jpg
+  - item:
+    type: img
+    src: images/rebird/rebirdpair.jpg
   - item:
     type: img
     src: images/rebird/Apparel_36.jpg
