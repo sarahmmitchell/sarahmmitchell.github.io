@@ -23,6 +23,12 @@ content:
     src: images/sodny/Sodny technicals2.jpg
   - item:
     type: img
+    src: images/sodny/sodny_lasercut.jpg
+  - item:
+    type: img
+    src: images/sodny/sodny_trimcloseups.jpg
+  - item:
+    type: img
     src: images/sodny/Sodny_1.jpg
   - item:
     type: img
