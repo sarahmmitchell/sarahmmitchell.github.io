@@ -45,6 +45,9 @@ content:
     type: img
     src: images/rebird/Rebird_2.jpg
   - item:
+    type: img
+    src: images/rebird/rebird_features.jpg
+  - item:
     type: text
     paragraphs:
       - _: 
