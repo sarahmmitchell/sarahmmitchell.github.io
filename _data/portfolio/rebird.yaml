@@ -19,6 +19,9 @@ content:
     src: images/rebird/Apparel_31.jpg
   - item:
     type: img
+    src: images/rebird/Rebird_insp.png
+  - item:
+    type: img
     src: images/rebird/Rebird_3.jpg
   - item:
     type: img
