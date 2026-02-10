@@ -12,11 +12,14 @@ content:
           and promoting circularity.
       - _: 
         text: >-
-          The final colourway designs were so successful at launch, the style continues to be produced, 
-          following the original colourblocked direction from the initial design in Spring 2021. 
+          The success of this project has led to continued demand for the Stowe Windshells, which continue to be produced 
+          following my initial design concept. 
   - item:
     type: img
     src: images/rebird/Apparel_31.jpg
+  - item:
+    type: img
+    src: images/Spacer.png
   - item:
     type: img
     src: images/rebird/Rebird_insp.png
