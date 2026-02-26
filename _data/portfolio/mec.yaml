@@ -39,6 +39,18 @@ content:
     src: images/mec/Apparel_22.jpg
   - item:
     type: img
+    src: images/mec/Aquanator1.jpg
+  - item:
+    type: img
+    src: images/mec/Aquanator2.jpg
+  - item:
+    type: img
+    src: images/mec/Aquanator3.jpg
+  - item:
+    type: img
+    src: images/mec/Aquanator4.jpg
+  - item:
+    type: img
     src: images/mec/Apparel_23.jpg
   - item:
     type: img
