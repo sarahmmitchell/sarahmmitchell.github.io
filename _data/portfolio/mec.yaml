@@ -72,9 +72,6 @@ content:
     src: images/mec/Overalls1.jpg
   - item:
     type: img
-    src: images/mec/Overalls2.jpg
-  - item:
-    type: img
     src: images/mec/Overalls3.jpg
   - item:
     type: img
