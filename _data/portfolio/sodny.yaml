@@ -54,3 +54,6 @@ content:
       - _:
         text: >-
           Technical Design: Nicole Carusi
+  - item:
+    type: img
+    src: images/Spacer.png
