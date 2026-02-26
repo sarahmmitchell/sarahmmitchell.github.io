@@ -12,18 +12,6 @@ items:
     mobile: images/entry/mobile/vdl.jpg
     link: /vdl
   - project:
-    title: Mountains in Snow
-    key: mountain
-    img: images/entry/mountain.jpg
-    mobile: images/entry/mobile/mountain.jpg
-    link: /mountain
-  - project:
-    title: Sarha by Sodny
-    key: sodny
-    img: images/entry/sodny.jpg
-    mobile: images/entry/mobile/sodny.jpg
-    link: /sodny
-  - project:
     title: Arc'teryx ReBird
     key: rebird
     img: images/entry/rebird.jpg
@@ -35,6 +23,18 @@ items:
     img: images/entry/mec.jpg
     mobile: images/entry/mobile/mec.jpg
     link: /mec
+  - project:
+    title: Mountains in Snow
+    key: mountain
+    img: images/entry/mountain.jpg
+    mobile: images/entry/mobile/mountain.jpg
+    link: /mountain
+  - project:
+    title: Sarha by Sodny
+    key: sodny
+    img: images/entry/sodny.jpg
+    mobile: images/entry/mobile/sodny.jpg
+    link: /sodny
   - project:
     title: Personal - Ski Movies
     key: personal
