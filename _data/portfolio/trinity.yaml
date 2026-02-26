@@ -67,4 +67,7 @@ content:
       - _:
         text: >-
           Photography: Hussain Ali & Luc Frost
+    - item:
+    type: img
+    src: images/Spacer.png
   
