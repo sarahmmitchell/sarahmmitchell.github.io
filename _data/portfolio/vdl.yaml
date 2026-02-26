@@ -73,4 +73,7 @@ content:
       - _:
         text: >-
           Product Development: Camila Rodrigues & Thuy Hang
+  - item:
+    type: img
+    src: images/Spacer.png
   
