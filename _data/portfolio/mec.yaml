@@ -51,6 +51,9 @@ content:
     src: images/mec/Aquanator4.jpg
   - item:
     type: img
+    src: images/Spacer.png
+  - item:
+    type: img
     src: images/mec/Apparel_23.jpg
   - item:
     type: img
