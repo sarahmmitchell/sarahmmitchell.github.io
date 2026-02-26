@@ -94,3 +94,10 @@ content:
       - _:
         text: >-
           Product Development: Sarah Millar & Morgan Dolejsi
+
+  - item:
+    type: img
+    src: images/Spacer.png
+  - item:
+    type: img
+    src: images/Spacer.png
