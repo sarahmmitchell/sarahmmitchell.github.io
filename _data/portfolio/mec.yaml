@@ -18,6 +18,15 @@ content:
     src: images/mec/Apparel_26.jpg
   - item:
     type: img
+    src: images/mec/Greycoast1.jpg
+  - item:
+    type: img
+    src: images/mec/Greycoast2.jpg
+  - item:
+    type: img
+    src: images/mec/Greycoast3.jpg
+  - item:
+    type: img
     src: images/mec/Apparel_21.jpg
   - item:
     type: img
