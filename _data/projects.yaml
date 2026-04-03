@@ -12,17 +12,17 @@ items:
     mobile: images/entry/mobile/mountain.jpg
     link: /mountain
   - project:
-    title: Vessi Trinity Jackets
-    key: trinity
-    img: images/entry/trinity.jpg
-    mobile: images/entry/mobile/trinity.jpg
-    link: /trinity
-  - project:
     title: Arc'teryx ReBird
     key: rebird
     img: images/entry/rebird.jpg
     mobile: images/entry/mobile/rebird.jpg
     link: /rebird
+  - project:
+    title: Vessi Trinity Jackets
+    key: trinity
+    img: images/entry/trinity.jpg
+    mobile: images/entry/mobile/trinity.jpg
+    link: /trinity
   - project:
     title: Sarha by Sodny
     key: sodny
