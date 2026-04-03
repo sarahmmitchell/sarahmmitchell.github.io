@@ -24,14 +24,14 @@ items:
     mobile: images/entry/mobile/rebird.jpg
     link: /rebird
   - project:
-    title: Mountain Equipment Company
-    key: mec
-    img: images/entry/mec.jpg
-    mobile: images/entry/mobile/mec.jpg
-    link: /mec
-  - project:
     title: Sarha by Sodny
     key: sodny
     img: images/entry/sodny.jpg
     mobile: images/entry/mobile/sodny.jpg
     link: /sodny
+  - project:
+    title: Mountain Equipment Company
+    key: mec
+    img: images/entry/mec.jpg
+    mobile: images/entry/mobile/mec.jpg
+    link: /mec
