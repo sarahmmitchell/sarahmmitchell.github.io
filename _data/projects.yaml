@@ -1,5 +1,10 @@
 items:
   - project:
+    title: Vessi Trinity Jackets
+    key: trinity
+    img: images/entry/trinity.jpg
+    mobile: images/entry/mobile/trinity.jpg
+    link: /trinity- project:
     title: Vessi Design Language
     key: vdl
     img: images/entry/vdl.jpg
@@ -11,12 +16,6 @@ items:
     img: images/entry/mountain.jpg
     mobile: images/entry/mobile/mountain.jpg
     link: /mountain
-  - project:
-    title: Vessi Trinity Jackets
-    key: trinity
-    img: images/entry/trinity.jpg
-    mobile: images/entry/mobile/trinity.jpg
-    link: /trinity
   - project:
     title: Arc'teryx ReBird
     key: rebird
