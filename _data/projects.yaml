@@ -11,12 +11,12 @@ items:
     img: images/entry/vdl.jpg
     mobile: images/entry/mobile/vdl.jpg
     link: /vdl
-  - project:
-    title: Menswear Collection - Sarha by Sodny
-    key: sodny
-    img: images/entry/sodny.jpg
-    mobile: images/entry/mobile/sodny.jpg
-    link: /sodny
+ - project:
+    title: Mountain Equipment Company
+    key: mec
+    img: images/entry/mec.jpg
+    mobile: images/entry/mobile/mec.jpg
+    link: /mec
   - project:
     title: Arc'teryx ReBird - Stowe Windshells
     key: rebird
@@ -30,8 +30,8 @@ items:
     mobile: images/entry/mobile/mountain.jpg
     link: /mountain
   - project:
-    title: Mountain Equipment Company
-    key: mec
-    img: images/entry/mec.jpg
-    mobile: images/entry/mobile/mec.jpg
-    link: /mec
+    title: Menswear Collection - Sarha by Sodny
+    key: sodny
+    img: images/entry/sodny.jpg
+    mobile: images/entry/mobile/sodny.jpg
+    link: /sodny
