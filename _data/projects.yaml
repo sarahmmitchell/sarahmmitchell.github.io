@@ -1,6 +1,6 @@
 items:
   - project:
-    title: Vessi Trinity Jackets
+    title: Trinity Jackets - Vessi
     key: trinity
     img: images/entry/trinity.jpg
     mobile: images/entry/mobile/trinity.jpg
@@ -12,19 +12,19 @@ items:
     mobile: images/entry/mobile/vdl.jpg
     link: /vdl
   - project:
-    title: Sarha by Sodny
+    title: Menswear Collection - Sarha by Sodny
     key: sodny
     img: images/entry/sodny.jpg
     mobile: images/entry/mobile/sodny.jpg
     link: /sodny
   - project:
-    title: Arc'teryx ReBird
+    title: Arc'teryx ReBird - Stowe Windshells
     key: rebird
     img: images/entry/rebird.jpg
     mobile: images/entry/mobile/rebird.jpg
     link: /rebird
   - project:
-    title: Mountains in Snow
+    title: Sketching & 3D - Mountains in Snow
     key: mountain
     img: images/entry/mountain.jpg
     mobile: images/entry/mobile/mountain.jpg
