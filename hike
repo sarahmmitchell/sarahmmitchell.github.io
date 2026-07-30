@@ -1,0 +1,24 @@
+---
+contact: true
+footerlinks: true
+---
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    {% include header.html title="About" %}
+  </head>
+
+  <body>
+    <div class="background">
+      {% include nav.html %}
+      <section id="portfolio" class="section-top">
+          <div class="container-lrg">
+              {% include components/portfolio.html portfolio=site.data.contact.content %}
+          </div>
+      </section>
+      {% include footer.html %}
+    </div>
+  </body>
+
+  </html>
