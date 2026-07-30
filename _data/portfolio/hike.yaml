@@ -8,16 +8,16 @@ content:
           A personal project expanding on Arc'teryx' current Hike assortment, adding a refreshing perspective yet maintaining the brand's identity.
   - item:
     type: img
-    src: images/hike/Hike1.jpg
+    src: images/Hike1.jpg
   - item:
     type: img
-    src: images/hike/Hike2.jpg
+    src: images/Hike2.jpg
   - item:
     type: img
-    src: images/hike/Hike3.jpg
+    src: images/Hike3.jpg
   - item:
     type: img
-    src: images/hike/Hike4.jpg
+    src: images/Hike4.jpg
   - item:
     type: img
-    src: images/hike/Hike5.jpg
+    src: images/Hike5.jpg
