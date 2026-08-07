@@ -23,4 +23,25 @@ content:
   - item:
     type: img
     src: images/Veilance 9.jpg
-    
+  - item:
+    type: project-links
+    projects:
+      - project:
+        title: Trinity Jackets - Vessi
+        link: /trinity
+      - project:
+        title: Design Language & Collection Development - Vessi
+        link: /vdl
+      - project:
+        title: Womenswear - Mountains in Snow
+        link: /mountain
+      - project:
+        title: Arc'teryx ReBird - Stowe Windshells
+        link: /rebird
+      - project:
+        title: Mountain Equipment Company
+        link: /mec
+      - project:
+        title: sarha by SODNY
+        link: /sodny
+

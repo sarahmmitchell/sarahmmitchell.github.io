@@ -360,6 +360,20 @@ body {
   transform: translateY(-50%);
 }
 
+/* Links */
+
+.component-links {
+  padding-top: 30px;
+  padding-bottom: 30px; 
+  text-align: center;
+}
+
+.component-links .project-link {
+  display: inline-block; 
+  margin: 10px 10px 0px 10px; 
+  text-transform: uppercase; 
+}
+
 /**
 * BOTH of the marquee items are going to be translating left at the same time.
 * And, once each of them has translated to -100%, they will both snap back into
