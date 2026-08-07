@@ -27,6 +27,9 @@ content:
     type: img
     src: images/Veilance 11.jpg
   - item:
+    type: img
+    src: images/Spacer.png
+  - item:
     type: project-links
     projects:
       - project:
