@@ -21,6 +21,12 @@ content:
     type: img
     src: images/Veilance 9.jpg
   - item:
+    type: img
+    src: images/Veilance 10.jpg
+  - item:
+    type: img
+    src: images/Veilance 11.jpg
+  - item:
     type: project-links
     projects:
       - project:
