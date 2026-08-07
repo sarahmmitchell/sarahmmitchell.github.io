@@ -1,0 +1,5 @@
+<div class="component component-links font-modern">
+    {% for project in include.links.projects %}
+    <a class="project-link nav-link-hover" href="{{ project.link }}">{{ project.title }}</a>
+    {% endfor %}
+</div>

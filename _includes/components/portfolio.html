@@ -13,6 +13,8 @@
                 {% include components/portfolio-text.html text=item %}
             {% elsif item.type == "youtube" %}
                 {% include components/portfolio-youtube.html youtube=item %}
+            {% elsif item.type == "project-links" %}
+                {% include components/portfolio-project-links.html links=item %}
             {% else %}
                 <div class="font-modern" style="font-size: 20px; color: red;">
                     COMPONENT
