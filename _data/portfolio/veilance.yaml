@@ -27,16 +27,16 @@ content:
     type: project-links
     projects:
       - project:
-        title: Trinity Jackets - Vessi
-        link: /trinity
-      - project:
-        title: Design Language & Collection Development - Vessi
-        link: /vdl
-      - project:
         title: Womenswear - Mountains in Snow
         link: /mountain
       - project:
-        title: Arc'teryx ReBird - Stowe Windshells
+        title: Vessi Design Language & Collection Development
+        link: /vdl
+      - project:
+        title: Trinity Jackets - Vessi
+        link: /trinity
+      - project:
+        title: Arc'teryx ReBird
         link: /rebird
       - project:
         title: Mountain Equipment Company
