@@ -1,0 +1,36 @@
+content:
+  - item:
+    type: portfolio-header
+    title: Women's Veilance SS 28
+    paragraphs:
+      - _: 
+        text: >-
+          A personal project expanding Women's Veilance for Spring Summer 2028.
+  - item:
+    type: img
+    src: images/Veilance 1.jpg
+  - item:
+    type: img
+    src: images/Veilance 2.jpg
+  - item:
+    type: img
+    src: images/Veilance 3.jpg
+  - item:
+    type: img
+    src: images/Veilance 4.jpg
+  - item:
+    type: img
+    src: images/Veilance 5.jpg
+  - item:
+    type: img
+    src: images/Veilance 6.jpg
+  - item:
+    type: img
+    src: images/Veilance 7.jpg
+  - item:
+    type: img
+    src: images/Veilance 8.jpg
+  - item:
+    type: img
+    src: images/Veilance 9.jpg
+    
