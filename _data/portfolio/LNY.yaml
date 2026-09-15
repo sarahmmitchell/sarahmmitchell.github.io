@@ -23,6 +23,9 @@ content:
     src: LNY 6.jpg
   - item:
     type: img
+    src: images/Spacer.png
+  - item:
+    type: img
     src: LNY 8.jpg
   - item:
     type: img
