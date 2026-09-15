@@ -1,26 +1,76 @@
 content:
   - item:
     type: portfolio-header
-    title: Lunar New Year 2024 for Vessi
+    title: Vessi Lunar New Year 2024
     paragraphs:
       - _: 
         text: >-
-          A personal project expanding on Arc'teryx' current Hike assortment, adding a refreshing perspective yet maintaining the brand's identity.
-  - item:
+           Limited Edition Collection for Vessi consisting of the bestselling Weekend Sneakers, featuring new unique concepts to bring the Year of the Dragon, wood element to life.
     type: img
     src: LNY 1.jpg
   - item:
     type: img
-    src: images/Hike1.jpg
+    src: LNY 2.jpg
   - item:
     type: img
-    src: images/Hike2.jpg
+    src: LNY 3.jpg
   - item:
     type: img
-    src: images/Hike3.jpg
+    src: LNY 3.jpg
   - item:
     type: img
-    src: images/Hike4.jpg
+    src: LNY 4.jpg
   - item:
     type: img
-    src: images/Hike5.jpg
+    src: LNY 5.jpg
+  - item:
+    type: img
+    src: LNY 6.jpg
+  - item:
+    type: img
+    src: LNY 7.jpg
+  - item:
+    type: img
+    src: LNY 8.jpg
+  - item:
+    type: img
+    src: LNY 9.jpg
+  - item:
+    type: img
+    src: LNY 10.jpg
+  - item:
+    type: img
+    src: LNY 11.jpg
+  - item:
+    type: img
+    src: LNY 12.jpg
+  - item:
+    type: img
+    src: LNY 13.jpg
+  - item:
+    type: img
+    src: LNY 14.jpg
+  - item:
+    type: img
+    src: LNY 15.jpg
+  - item:
+    type: img
+    src: LNY 16.jpg
+  - item:
+    type: img
+    src: LNY 17.jpg
+  - item:
+    type: img
+    src: LNY 18.jpg
+  - item:
+    type: img
+    src: LNY 19.jpg
+  - item:
+    type: img
+    src: LNY 20.jpg
+  - item:
+    type: img
+    src: LNY 21.jpg
+  - item:
+    type: img
+    src: LNY 22.jpg
