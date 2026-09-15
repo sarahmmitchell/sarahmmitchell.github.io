@@ -51,6 +51,9 @@ content:
     src: images/trinity/Trinitysamples5.jpg
   - item:
     type: img
+    src: images/Spacer.png
+  - item:
+    type: img
     src: images/trinity/Apparel_Trinity10.jpg
   - item:
     type: img
