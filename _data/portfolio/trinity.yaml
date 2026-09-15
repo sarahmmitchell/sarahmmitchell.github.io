@@ -36,6 +36,21 @@ content:
     src: images/Spacer.png
   - item:
     type: img
+    src: images/trinity/Trinitysamples1.jpg
+  - item:
+    type: img
+    src: images/trinity/Trinitysamples2.jpg
+  - item:
+    type: img
+    src: images/trinity/Trinitysamples3.jpg
+  - item:
+    type: img
+    src: images/trinity/Trinitysamples4.jpg
+  - item:
+    type: img
+    src: images/trinity/Trinitysamples5.jpg
+  - item:
+    type: img
     src: images/trinity/Apparel_Trinity10.jpg
   - item:
     type: img
