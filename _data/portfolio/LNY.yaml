@@ -1,0 +1,26 @@
+content:
+  - item:
+    type: portfolio-header
+    title: Lunar New Year 2024 for Vessi
+    paragraphs:
+      - _: 
+        text: >-
+          A personal project expanding on Arc'teryx' current Hike assortment, adding a refreshing perspective yet maintaining the brand's identity.
+  - item:
+    type: img
+    src: images/Hike.jpg
+  - item:
+    type: img
+    src: images/Hike1.jpg
+  - item:
+    type: img
+    src: images/Hike2.jpg
+  - item:
+    type: img
+    src: images/Hike3.jpg
+  - item:
+    type: img
+    src: images/Hike4.jpg
+  - item:
+    type: img
+    src: images/Hike5.jpg
